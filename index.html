@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>De rekenmachine</title>
+	<link rel="stylesheet" type="text/css" href="rekenmachine.css">
+	<meta charset="utf-8">
+	<script type="text/javascript" src="rekenmachine.js"></script>
+
+</head>
+<body>
+  <div id="calc-contain">
+      <input type="text" id="som">
+      <input type="text" id="answer">
+      <br>
+   
+      <button  onclick='Calculator.add("1");'>1</button>
+      <button  onclick='Calculator.add("2");'>2</button>
+      <button  onclick='Calculator.add("3");'>3</button>
+      <button  onclick='Calculator.operator("+");'>+</button>
+      <br>
+      <button  onclick='Calculator.add("4");'>4</button>
+      <button  onclick='Calculator.add("5");'>5</button>
+      <button  onclick='Calculator.add("6");'>6</button>
+      <button  onclick='Calculator.operator("-");'>-</button>
+      <br>
+      <button  onclick='Calculator.add("7");'>7</button>
+      <button  onclick='Calculator.add("8");'>8</button>
+      <button  onclick='Calculator.add("9");'>9</button>
+      <button  onclick='Calculator.operator("*");'>x</button>
+      <br>
+      <button  onclick='Calculator.clear();'>C</button>
+      <button  onclick='Calculator.add("0");'>0</button>
+      <button  onclick='Calculator.calculate();'>=</button>
+      <button  onclick='Calculator.operator("/");'>/</button>
+
+
+      <br>
+  </div>
+   
+</body>
+</html>
